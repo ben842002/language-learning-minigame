@@ -1,2 +1,2 @@
-# language-learning-minigame
-Simple Language Learning Game
+# Language Learning Minigame
+Simple Language Learning Game using JavaScript
