@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+body {
+  background: #1E90FF;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.container ul {
+  padding: 0;
+  list-style: none;
+}
+
+.container ul li {
+  font-size: 50px;
+  padding: 20px;
+  background: #E6E6E6;
+  width: 35%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.container ul li:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.container #title {
+  font-size: 75px;
+  font-weight: bold;
+  padding: 25px;
+  background-color: black;
+  color: white;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.container #answerCheck, .container #score {
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+  .container ul li.alternative {
+    width: 75%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
